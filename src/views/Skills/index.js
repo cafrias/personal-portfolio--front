@@ -52,29 +52,13 @@ const Skills = (props: NormalPageProps) => {
             ? ''
             : 'fade-right'
           }`}
-        heading="Front-end"
+        heading="Techs"
         entries={frontSkills}
-      />
-
-      <ArticleLine
-        className={`fade-side ${
-          ready
-            ? ''
-            : 'fade-right'
-          }`}
-        heading="Back-end"
-        entries={backSkills}
       />
 
       <ArticleLine
         heading="Coming Soon"
         entries={comingSoon}
-      />
-
-      <ArticleLine
-        heading="Side Skills"
-        entries={sideSkills}
-        theme="mono"
       />
 
       <ArticleLine
@@ -88,10 +72,10 @@ const Skills = (props: NormalPageProps) => {
 
 const configObj = {
   topNavArrowLabel: 'About',
-  bottomNavArrowLabel: 'Portfolio',
+  bottomNavArrowLabel: 'Contact',
   headingImg,
   headingAriaLabel: 'Skills',
-  nextPage: '/portfolio',
+  nextPage: '/contact',
   previousPage: '/about'
 }
 

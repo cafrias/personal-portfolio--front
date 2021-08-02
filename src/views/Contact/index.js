@@ -49,12 +49,12 @@ const Contact = (props: NormalPageProps) => {
 }
 
 const configObj = {
-  topNavArrowLabel: 'Portfolio',
+  topNavArrowLabel: 'Skills',
   last: true,
   headingImg,
   headingAriaLabel: 'Contact',
   nextPage: '',
-  previousPage: '/portfolio'
+  previousPage: '/skills'
 }
 
 export const ContactTesting = PageTemplate(Contact, configObj, true)

@@ -23,18 +23,16 @@ const About = (props: NormalPageProps) => {
     <div className="template-container">
       <TextArticle heading="bio" ready={ready}>
         <p>
-          Straight from the very south of Argentina, Rio Grande, I grew up to
-          become a <strong>COMPUTER GEEK</strong> (proudly). Since my childhood,
+          Straight from the south of Argentina, Rio Grande, I grew up to
+          become a <strong>COMPUTER GEEK</strong> (proudly). Since I was a little boy,
           I’ve been around computers and other small devices, like watches, as
           well.
         </p>
         <p>
-          One may think that I would have become a developer rightaway, but
-          eventually I started my college days as Musical Arts Student, and
-          became a lover of Romantic piano composers like Franz Listz and
-          Frederic Chopin. After experimenting with Jazz Piano, I played with a
-          Jazz Quartet and on my own, until I later discovered that music,
-          although my passion, wasn't something I wanted to live of.
+          Eventually I started my college days as Musical Arts Student, and
+          fall in love with Classical Music and Jazz. I played in a
+          Jazz Quartet while living in Tucuman, Argentina, until I later discovered that I didn't
+          want to live off the music.
         </p>
         <p>
           After a couple of years of experimenting, I went back to my roots and
@@ -43,24 +41,17 @@ const About = (props: NormalPageProps) => {
         </p>
         <p>
           In the present day, I like to focus all my time to{' '}
-          <strong>delivering Great Experiences and Usable Products</strong>,
+          <strong>delivering Great Experiences</strong>,
           that doesn’t only cover the mandatory guidelines, but also give an
           extra value to users, clients, designers and developers, through
-          innovation. All of this couldn't be possible without ensuring an
-          overall good quality of the project, I ensure it by using techniques
-          like <strong>TDD</strong>.
+          innovation and good practices.
         </p>
         <p>
-          I strongly believe that a good work team is a team that shares
-          knowledge, that is constantly involved in learning and teaching, and
-          that's what I thrive for.
+          Curious by nature, I keep constantly learning and practicing new skills and technologies.
         </p>
-        {/* <p>
-          I'm also commited to accessiblity, I deeply believe in a <strong>Web accessible for all</strong>, without any kind of discrimination (conscious or not); with that in mind I carefully craft and test my projects for ensuring accessiblity.
-        </p> */}
       </TextArticle>
 
-      <ArticleLine heading="Education" entries={education} />
+      {/* <ArticleLine heading="Education" entries={education} /> */}
 
       <ArticleLine heading="Interests" entries={interests} theme="mono" />
     </div>

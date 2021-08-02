@@ -18,7 +18,6 @@ import Filter from '../components/Filter'
 import Home from '../views/Home'
 import About from '../views/About'
 import Skills from '../views/Skills'
-import Portfolio from '../views/Portfolio'
 import Contact from '../views/Contact'
 
 // TYPES
@@ -101,9 +100,6 @@ class App extends React.Component {
         }/>
         <Route exact path="/skills" render={() =>
           <Skills triggerTransition={triggerTransitionScroll(this.props)}/>
-        }/>
-        <Route exact path="/portfolio" render={() =>
-          <Portfolio triggerTransition={triggerTransitionScroll(this.props)}/>
         }/>
         <Route exact path="/contact" render={() =>
           <Contact triggerTransition={triggerTransitionScroll(this.props)}/>

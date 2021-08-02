@@ -2,7 +2,7 @@
 
 // LOGOS
 import frrgLogo from './_assets/frrg.svg'
-import glassesLogo from './_assets/glasses.svg'
+import fishing from './_assets/fishing.svg'
 import omLogo from './_assets/om.svg'
 import mongoLogo from '../../_assets/mongo.svg'
 import pianoLogo from './_assets/piano.svg'
@@ -26,9 +26,9 @@ export const education = [
   {
     logo: frrgLogo,
     sub: 'Computer Programming',
-    h: 'Technical Degree',
+    h: 'Associate\'s degree',
     text: 'Facultad Regional Río Grande (FRRG) de la UTN<br/>2013-2015'
-  }
+  },
 ]
 
 export const interests = [
@@ -40,10 +40,10 @@ export const interests = [
       'I’ve been interested in Zen Buddhism since my trip to Japan, after visiting Soji Temple in Yokohama … so peaceful!'
   },
   {
-    logo: glassesLogo,
-    sub: 'Events',
-    h: 'Tech Talks',
-    text: 'Tech talks are exciting; React conf, CSSconf, whateverconf, name it!'
+    logo: fishing,
+    sub: 'Outdoors',
+    h: 'Fishing',
+    text: 'Here in Rio Grande we take Fly Fishing seriously. When the season is off, I tie my own flies and also go surf fishing on the beach'
   },
   {
     logo: omLogo,
@@ -57,7 +57,7 @@ export const interests = [
     sub: 'Arts',
     h: 'Piano',
     text:
-      'I’ve playing piano for several years, it used to be more than a hobbie in the past. Nowadays it’s there for eventual diminished scale smashing.'
+      'I’ve playing piano for several years, it used to be more than a hobby in the past. Nowadays it’s there for eventual diminished scale smashing.'
   },
   {
     logo: pizzaLogo,

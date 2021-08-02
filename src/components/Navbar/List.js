@@ -12,10 +12,6 @@ const MENU_ITEMS_TOP = [
     link: '/skills'
   },
   {
-    name: 'portfolio',
-    link: '/portfolio'
-  },
-  {
     name: 'contact',
     link: '/contact'
   }
