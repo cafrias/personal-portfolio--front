@@ -35,7 +35,7 @@
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
     "json-loader": "0.5.4",
-    "nightwatch": "^0.9.15",
+    "nightwatch": "^2.3.9",
     "node-sass": "^4.14.1",
     "object-assign": "4.1.1",
     "postcss-loader": "1.2.2",
